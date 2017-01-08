@@ -1,0 +1,33 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FluentApprovals.Core", "FluentApprovals.Core\FluentApprovals.Core.csproj", "{A38222C3-E1A9-49A8-93C6-8C23F9C93015}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{7B3E5451-C6B3-49E4-9862-3BD97E1AAA20}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FluentApprovals.Core.Tests", "FluentApprovals.Core.Tests\FluentApprovals.Core.Tests.csproj", "{C32B5FA8-0290-49CB-93C5-DB0E8BEBC719}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A38222C3-E1A9-49A8-93C6-8C23F9C93015}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A38222C3-E1A9-49A8-93C6-8C23F9C93015}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A38222C3-E1A9-49A8-93C6-8C23F9C93015}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A38222C3-E1A9-49A8-93C6-8C23F9C93015}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C32B5FA8-0290-49CB-93C5-DB0E8BEBC719}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C32B5FA8-0290-49CB-93C5-DB0E8BEBC719}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C32B5FA8-0290-49CB-93C5-DB0E8BEBC719}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C32B5FA8-0290-49CB-93C5-DB0E8BEBC719}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{C32B5FA8-0290-49CB-93C5-DB0E8BEBC719} = {7B3E5451-C6B3-49E4-9862-3BD97E1AAA20}
+	EndGlobalSection
+EndGlobal
